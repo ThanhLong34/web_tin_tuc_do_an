@@ -7,6 +7,11 @@ const routes = [
     name: "home",
     component: HomePage,
   },
+  {
+    path: "/news-category",
+    name: "news_category",
+    component: import("@/pages/news_category"),
+  },
 ];
 
 const router = createRouter({
