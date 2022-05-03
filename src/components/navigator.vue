@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="navigator">
     <router-link class="nav-link" :to="{ name: 'home' }">Trang chủ</router-link>
     <router-link class="nav-link" :to="{ name: 'news_category' }"
       >Danh mục tin tức
@@ -15,6 +15,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/scss/variables.scss" as *;
+
 .nav-link {
   display: inline-block;
   margin: 0 5px;
