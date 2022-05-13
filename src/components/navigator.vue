@@ -4,6 +4,9 @@
     <router-link class="nav-link" :to="{ name: 'news_category' }"
       >Danh mục tin tức
     </router-link>
+    <router-link class="nav-link" :to="{ name: 'news_detail' }"
+      >Tin tức chi tiết
+    </router-link>
   </nav>
 </template>
 
@@ -23,6 +26,6 @@ export default {
   border-radius: 8px;
   box-shadow: 0 1px 30px rgba(0 0 0 / 10%);
   background: $primaryColor;
-  color: $secondaryColor;
+  color: #fff;
 }
 </style>
