@@ -1,15 +1,20 @@
 <template>
   <!-- Navigator -->
-  <NavigatorComponent />
+  <HeaderComponent />
   <RouterView />
+  <!-- home -->
+  <!-- last news -->
+  <!-- footer -->
+  <FooterComponent />
 </template>
 
 <script>
-import NavigatorComponent from "./components/navigator.vue";
-
+import HeaderComponent from "./components/header.vue";
+import FooterComponent from "./components/footer.vue";
 export default {
   components: {
-    NavigatorComponent,
+    HeaderComponent,
+    FooterComponent,
   },
   setup() {},
 };

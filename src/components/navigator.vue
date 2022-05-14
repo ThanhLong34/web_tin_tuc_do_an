@@ -18,11 +18,15 @@ export default {
 
 .nav-link {
   display: inline-block;
-  margin: 0 5px;
-  padding: 8px 15px;
-  border-radius: 8px;
-  box-shadow: 0 1px 30px rgba(0 0 0 / 10%);
-  background: $primaryColor;
-  color: $secondaryColor;
+  padding: 8px 10px;
+  margin-right: 10px;
+  // box-shadow: 0 1px 30px rgba(0 0 0 / 10%);
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid $primaryColor;
+}
+a.router-link-exact-active {
+  background-color: $primaryColor !important;
+  color: #fff;
 }
 </style>
