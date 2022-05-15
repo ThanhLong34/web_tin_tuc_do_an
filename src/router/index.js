@@ -12,6 +12,11 @@ const routes = [
     name: "news_category",
     component: import("@/pages/news_category"),
   },
+  {
+    path: "/news-detail",
+    name: "news_detail",
+    component: import("@/pages/news_detail"),
+  },
 ];
 
 const router = createRouter({
