@@ -1,4 +1,7 @@
 <template>
+
+  <div class="home-page"></div>
+
   <div class="home-page grid wide">
     <h1>Welcome</h1>
     <SliderComponent />
@@ -9,6 +12,7 @@
     </div>
     <LatestView />
   </div>
+
 </template>
 
 <script>

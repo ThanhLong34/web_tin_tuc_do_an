@@ -1,5 +1,5 @@
 <template>
-  <h1>News Category</h1>
+  <h1></h1>
 </template>
 
 <script>

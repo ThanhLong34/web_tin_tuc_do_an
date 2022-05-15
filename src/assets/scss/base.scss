@@ -30,6 +30,7 @@ body {
   overflow-x: hidden;
   height: 100%;
   min-height: 100% !important;
+  background-color: #f0f3f5;
 }
 
 ul {
@@ -131,6 +132,10 @@ address {
 .row.no-gutter .col {
   padding-left: 0;
   padding-right: 0;
+}
+
+.row.padding {
+   padding: 20px 0;
 }
 
 .s-0 {
