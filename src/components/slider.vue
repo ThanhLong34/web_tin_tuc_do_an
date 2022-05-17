@@ -36,10 +36,16 @@ export default {
   position: relative;
   display: block;
 }
+.slider_category {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
 .slider_img {
   width: 100%;
   height: 450px;
 }
+
 .slider_bottom {
   position: absolute;
   left: 0;
@@ -50,11 +56,7 @@ export default {
     border-top: 1px;
   }
 }
-.slider_category {
-  position: absolute;
-  top: 32px;
-  left: 32px;
-}
+
 .slider_title {
   text-align: center;
   margin-bottom: 24px;
