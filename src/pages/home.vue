@@ -1,9 +1,6 @@
 <template>
-
   <div class="home-page"></div>
-
   <div class="home-page grid wide">
-    <h1>Welcome</h1>
     <SliderComponent />
     <RoundComponents />
     <div class="row">
@@ -13,7 +10,6 @@
     <LatestView />
     <GoToTop />
   </div>
-
 </template>
 
 <script>

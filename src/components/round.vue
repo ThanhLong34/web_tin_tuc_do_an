@@ -71,11 +71,16 @@ export default {
 .round_item {
   display: flex;
   margin-bottom: 32px;
+  &a {
+    background-image: linear-gradient(#f0f3f5, #f0f3f5);
+  }
 }
 .round_img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  object-fit: cover;
+  background-image: linear-gradient(#f0f3f5, #f0f3f5);
 }
 .round_info {
   margin: 0 16px;

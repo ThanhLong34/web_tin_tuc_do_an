@@ -31,13 +31,11 @@ export default {
 }
 a.router-link-exact-active {
   background-color: $primaryColor !important;
-
   margin: 0 5px;
   padding: 8px 15px;
   border-radius: 8px;
   box-shadow: 0 1px 30px rgba(0 0 0 / 10%);
   background: $primaryColor;
-
   color: #fff;
 }
 </style>

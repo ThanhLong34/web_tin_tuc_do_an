@@ -1,7 +1,4 @@
 <template>
-  <section class="height" style="height: 500px">
-    <h2>height</h2>
-  </section>
   <footer class="footer-page">
     <div class="grid wide">
       <div class="row padding footer-page-top">
