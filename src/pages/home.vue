@@ -11,6 +11,7 @@
       <PopularCoponent />
     </div>
     <LatestView />
+    <GoToTop />
   </div>
 
 </template>
@@ -21,6 +22,7 @@ import RoundComponents from "../components/round.vue";
 import LatestNewsItem from "../components/latest_news_item.vue";
 import PopularCoponent from "../components/popular_news.vue";
 import LatestView from "../components/latest_view.vue";
+import GoToTop from "../components/go_to_top.vue";
 export default {
   name: "HomePage",
   components: {
@@ -29,6 +31,7 @@ export default {
     LatestNewsItem,
     PopularCoponent,
     LatestView,
+    GoToTop,
   },
 };
 </script>
